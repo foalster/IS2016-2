@@ -7,5 +7,6 @@
     <property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/Stuff</property>
     <property name="hibernate.connection.username">IS1</property>
     <property name="hibernate.connection.password">hola123</property>
+    <mapping resource="Paquete/Usuario.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
